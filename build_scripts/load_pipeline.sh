@@ -56,7 +56,7 @@ function update_config_repo() {
               \"configuration\": [
                 {
                  \"key\": \"pattern\",
-                 \"value\": \"build_scripts\/*.yaml\"
+                 \"value\": \"build_scripts\/honey-badger-build.gocd.yaml\"
                }
               ]
             }"
@@ -93,7 +93,7 @@ function create_config_repo() {
       \"configuration\": [
         {
          \"key\": \"pattern\",
-        \"value\": \"build_scripts\/*.yaml\"
+        \"value\": \"build_scripts\/honey-badger-build.gocd.yaml\"
        }
       ]
     }"
