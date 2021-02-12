@@ -2,7 +2,6 @@ format_version: 3
 pipelines:
   honey-badger-build:
     group: Honey_Badger
-    template: unicorn-service-build
     label_template: ${COUNT}
     lock_behavior: none
     display_order: -1
