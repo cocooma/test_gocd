@@ -1,0 +1,16 @@
+format_version: 3
+pipelines:
+  honey-badger-build:
+    group: Honey_Badger
+    template: unicorn-service-build
+    label_template: ${COUNT}
+    lock_behavior: none
+    display_order: -1
+    materials:
+      git:
+        git: git@github.comm/honey-badger.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    parameters:
+      repository: unicorn-docker.artifactory.com/honey_badger
